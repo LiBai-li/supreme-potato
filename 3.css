@@ -1,0 +1,138 @@
+*{  
+            margin: 0px;  
+            padding: 0px;  
+        }  
+
+body {color:#F0FFFF}
+/*动态背景*/
+body {
+      margin: 0;
+      padding: 0;
+      font-family: "montserrat";
+      background-image: linear-gradient(125deg, #698B22, #00868B);
+      /*上面那个是颜色*/
+      background-size: 400%;
+      animation: bganimation 15s infinite;
+    }
+
+    .text {
+      color: white;
+      text-transform: uppercase;
+    }
+
+    @keyframes bganimation {
+      0% {
+        background-position: 0% 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+/*视频背景*/
+
+        video.v{  
+            position: fixed;  
+            right: 0px;  
+            bottom: 0px;  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto;  
+            /*加滤镜*/
+            /*filter: blur(15px); //背景模糊设置 */
+            /*-webkit-filter: grayscale(100%);*/  
+            /*filter:grayscale(100%); //背景灰度设置*/  
+            z-index:-11
+        }  
+        source{  
+            min-width: 100%;  
+            min-height: 100%;  
+            height: auto;  
+            width: auto;  
+        } 
+
+/*链接*/
+
+a:link,a:visited
+{
+	display:block;
+	font-weight:bold;
+	color:#F0FFFF;
+	width:200px;
+	text-align:center;
+	padding:8px;
+	text-decoration:none;
+	/*background-color:#FF704D;*/
+}
+
+/*图片*/
+
+img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+/*按钮/*
+
+.button2:hover {    background-color:#0b3861;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*玻璃效果*/
+
+ .glass {
+	border-radius: 10px;
+	width:60%;
+	height:10%;
+	backdrop-filter: blur(40px);
+	box-shadow:  0 0 10px 6px rgba(0,0,0,.5);
+    }
+
+ .block {
+	width:250px;
+	border-radius: 50px;
+	backdrop-filter: blur(40px);
+	box-shadow:  0 0 35px 5px rgba(0,0,0,.5);
+    }
+
+/*悬浮按钮*/
+.but{
+	position: fixed;
+	z-index:999;
+	right: 0xp;
+	bottom: 0xp;
+	width:0xp;
+	height:0xp;
+}
+/*搜索框*/
+input.o {
+	border-radius: 50px;
+	width:550px;
+	height:50px;
+	backdrop-filter: blur(40px);
+	box-shadow:  0 0 10px 6px rgba(0,0,0,.5);
+    }
+
+/*图片底层*/
+img.dc
+{
+position:absolute;
+z-index:-1
+}
