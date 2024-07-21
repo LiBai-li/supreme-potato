@@ -3,21 +3,35 @@
   <title>你好！</title>
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet"  type="text/css"  href="3.css" >
+
+  <style>
+  /* 电脑端背景 */
+  @media screen and (min-width: 768px) {
+    body {
+      background="bg2.png";
+    }
+  }
+
+  /* 手机端背景 */
+  @media screen and (max-width: 767px) {
+    body {
+      background="bg1.png";
+    }
+  }
+    
+    embed[src="music.mp3"] {
+        display: none;
+    }	 
+
+</style>
+  
 </head> 
 
 
 <body background="bg.png">
-  <di valign="center">
+  <div valign="center">
 
-    <div class="hidden-p-visibility">
-  <p>
-<p align="center"> <TABLE borderColor=#dee4fe 
-cellSpacing=3 cellPadding=0 background="1.jpg" border=2> <TBODY> 
-<TR> <TD> <TABLE align=center border=0> <TBODY> 
-<TR> <TD style="FILTER: alpha(opacity=60,style=3)"> <P 
-align=center><EMBED style="FILTER: Gray" src="music.mp3" width=300 height=45 
-type=audio/mpeg volume="0" autostart="true" loop="loop"> 
-</P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></div>
+  <EMBED src="music.mp3" width=300 height=45 type=audio/mpeg autostart="true" loop="loop" controls="controls">
     
   <h1 style="color: white;">hello！</h1>
 
