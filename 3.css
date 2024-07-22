@@ -137,3 +137,27 @@ img.dc
 position:absolute;
 z-index:-1
 }
+
+
+
+
+/* 电脑端背景 */  
+@media screen and (min-width: 768px) {
+    body {
+      background-image: "bg2.png";    
+}  
+}
+  /* 手机端背景 */  
+@media screen and (max-width: 767px) {
+    body {
+      background-image: "bg1.png";    
+}  
+}
+ 
+ 
+   /*声音播放控件隐藏
+    embed[src="music.mp3"] {
+        display: none;
+    }	
+
+     
