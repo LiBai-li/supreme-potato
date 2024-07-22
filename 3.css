@@ -129,7 +129,7 @@ img {
     }
 
  .block {
-	width:20%;
+	width:250px;
 	border-radius: 50px;
 	backdrop-filter: blur(25px);
 	box-shadow:  0 0 35px 5px rgba(0,0,0,.5);
