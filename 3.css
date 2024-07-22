@@ -122,8 +122,8 @@ img {
 
  .glass {
 	border-radius: 10px;
-	width:60%;
-	height:10%;
+	width:30%;
+	height:8%;
 	backdrop-filter: blur(40px);
 	box-shadow:  0 0 10px 6px rgba(0,0,0,.5);
     }
