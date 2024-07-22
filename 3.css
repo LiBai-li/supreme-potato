@@ -83,16 +83,15 @@ body {
 
 /*链接*/
 
-a:link,a:visited
-{
-	display:block;
-	font-weight:bold;
-	color:#F0FFFF;
-	width:200px;
-	text-align:center;
-	padding:8px;
-	text-decoration:none;
-	/*background-color:#FF704D;*/
+a:link, a:visited {
+  display: block;
+  font-weight: bold;
+  color: #F0FFFF;
+  width: 200px;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  /* background-color: #FF704D; */
 }
 
 /*图片
