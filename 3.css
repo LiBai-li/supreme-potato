@@ -9,19 +9,18 @@
 @media screen and (min-width: 768px) {
     body {      
         background-image: url('bg2.png');
+        background-size: contain;
         background-repeat: no-repeat;
-        background-position: center center;
     }  
 }  
 /* 手机端背景 */  
 @media screen and (max-width: 767px) {
     body {      
         background-image: url('bg1.png');
+        background-size: contain;
         background-repeat: no-repeat;
-        background-position: center center;
     }  
 }
-
 
 
 /*
